@@ -30,4 +30,77 @@
     text-shadow: 1px 1px 1px black;
   }
 
-
+  #blog {
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0px;
+    margin:auto;
+  }
+  
+  #blog h2 {
+    margin-top: 130px;
+    padding:20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 200%;
+    font-size: 35px;
+  }
+  #blog div h3 {
+    font-size:20px;
+    margin-left: 30px;
+    width:35%;
+    text-align: left;
+  }
+  div {
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc(25% - 15px);
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px lightgrey;
+  }
+  #blog div a {
+    color:rgb(54, 54, 54);
+    margin-right:auto;
+    text-align: left;
+    padding:25px;
+    padding-bottom: 35px;
+    text-decoration: none;
+    font-size:15px;
+  }
+  
+  #blog div:nth-of-type(3){
+    border:solid black 1px;
+    background-color: black;
+    color: white;
+  }
+  #blog div:nth-of-type(3) a{
+    color: white;
+  }
+  #blog div:nth-of-type(3) a:hover{
+    color: orangered;
+  }
+  
+  #blog div div {
+    flex: 1;
+    padding: 20px;
+  }
+  #blog div img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    object-position: center;
+  }  
+  #blog div p {
+    padding-top:25px;
+    margin-top:-30px;
+    font-size: 15px;
+    padding-left:25px;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-right:25px;
+  }
